@@ -1,0 +1,512 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Produtos | Paty Calçados</title>
+
+    <meta
+        name="description"
+        content="Confira os produtos da Paty Calçados."
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- CABEÇALHO -->
+
+    <header class="header">
+
+        <div class="container header-content">
+
+            <a href="index.html" class="logo">
+
+                <span>PC</span>
+
+                <div>
+
+                    <strong>Paty</strong>
+
+                    <small>CALÇADOS</small>
+
+                </div>
+
+            </a>
+
+
+            <nav class="menu">
+
+                <a href="index.html">
+                    Início
+                </a>
+
+                <a href="produtos.html" class="active">
+                    Produtos
+                </a>
+
+                <a href="index.html#sobre">
+                    Sobre
+                </a>
+
+                <a href="index.html#contato">
+                    Contato
+                </a>
+
+            </nav>
+
+
+            <button class="menu-mobile" id="menuMobile">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- TÍTULO -->
+
+    <section class="page-header">
+
+        <div class="container">
+
+            <p>
+                PATY CALÇADOS
+            </p>
+
+            <h1>
+                Nossos produtos
+            </h1>
+
+            <span>
+                Encontre o modelo perfeito para você.
+            </span>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- PRODUTOS -->
+
+    <main class="products-page">
+
+        <div class="container">
+
+
+            <!-- FILTROS -->
+
+            <div class="filters">
+
+                <button
+                    class="filter active"
+                    data-category="todos"
+                >
+                    Todos
+                </button>
+
+                <button
+                    class="filter"
+                    data-category="sandalia"
+                >
+                    Sandálias
+                </button>
+
+                <button
+                    class="filter"
+                    data-category="tenis"
+                >
+                    Tênis
+                </button>
+
+                <button
+                    class="filter"
+                    data-category="bota"
+                >
+                    Botas
+                </button>
+
+                <button
+                    class="filter"
+                    data-category="sapato"
+                >
+                    Sapatos
+                </button>
+
+            </div>
+
+
+
+            <!-- LISTA -->
+
+            <div class="product-grid catalog-grid">
+
+
+                <!-- PRODUTO 1 -->
+
+                <article
+                    class="product-card catalog-product"
+                    data-category="sandalia"
+                >
+
+                    <div class="product-image">
+                        👠
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            Sandália
+                        </span>
+
+                        <h3>
+                            Sandália Elegance
+                        </h3>
+
+                        <p class="description">
+                            Modelo elegante e confortável
+                            para diversas ocasiões.
+                        </p>
+
+                        <p class="price">
+                            R$ 129,90
+                        </p>
+
+                        <a
+                            href="https://wa.me/5544999999999?text=Olá!%20Tenho%20interesse%20na%20Sandália%20Elegance."
+                            target="_blank"
+                            class="product-button"
+                        >
+                            Tenho interesse
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUTO 2 -->
+
+                <article
+                    class="product-card catalog-product"
+                    data-category="tenis"
+                >
+
+                    <div class="product-image">
+                        👟
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            Tênis
+                        </span>
+
+                        <h3>
+                            Tênis Casual
+                        </h3>
+
+                        <p class="description">
+                            Conforto para acompanhar
+                            sua rotina.
+                        </p>
+
+                        <p class="price">
+                            R$ 159,90
+                        </p>
+
+                        <a
+                            href="https://wa.me/5544999999999?text=Olá!%20Tenho%20interesse%20no%20Tênis%20Casual."
+                            target="_blank"
+                            class="product-button"
+                        >
+                            Tenho interesse
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUTO 3 -->
+
+                <article
+                    class="product-card catalog-product"
+                    data-category="bota"
+                >
+
+                    <div class="product-image">
+                        👢
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            Bota
+                        </span>
+
+                        <h3>
+                            Bota Fashion
+                        </h3>
+
+                        <p class="description">
+                            Estilo e personalidade
+                            para seu visual.
+                        </p>
+
+                        <p class="price">
+                            R$ 189,90
+                        </p>
+
+                        <a
+                            href="https://wa.me/5544999999999?text=Olá!%20Tenho%20interesse%20na%20Bota%20Fashion."
+                            target="_blank"
+                            class="product-button"
+                        >
+                            Tenho interesse
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUTO 4 -->
+
+                <article
+                    class="product-card catalog-product"
+                    data-category="sapato"
+                >
+
+                    <div class="product-image">
+                        👠
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            Sapato
+                        </span>
+
+                        <h3>
+                            Scarpin Clássico
+                        </h3>
+
+                        <p class="description">
+                            Um clássico para deixar
+                            seu look elegante.
+                        </p>
+
+                        <p class="price">
+                            R$ 149,90
+                        </p>
+
+                        <a
+                            href="https://wa.me/5544999999999?text=Olá!%20Tenho%20interesse%20no%20Scarpin%20Clássico."
+                            target="_blank"
+                            class="product-button"
+                        >
+                            Tenho interesse
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUTO 5 -->
+
+                <article
+                    class="product-card catalog-product"
+                    data-category="sandalia"
+                >
+
+                    <div class="product-image">
+                        👡
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            Sandália
+                        </span>
+
+                        <h3>
+                            Sandália Comfort
+                        </h3>
+
+                        <p class="description">
+                            Leveza e conforto para
+                            o dia inteiro.
+                        </p>
+
+                        <p class="price">
+                            R$ 119,90
+                        </p>
+
+                        <a
+                            href="https://wa.me/5544999999999?text=Olá!%20Tenho%20interesse%20na%20Sandália%20Comfort."
+                            target="_blank"
+                            class="product-button"
+                        >
+                            Tenho interesse
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUTO 6 -->
+
+                <article
+                    class="product-card catalog-product"
+                    data-category="tenis"
+                >
+
+                    <div class="product-image">
+                        👟
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">
+                            Tênis
+                        </span>
+
+                        <h3>
+                            Tênis Urban
+                        </h3>
+
+                        <p class="description">
+                            Moderno, versátil e
+                            confortável.
+                        </p>
+
+                        <p class="price">
+                            R$ 179,90
+                        </p>
+
+                        <a
+                            href="https://wa.me/5544999999999?text=Olá!%20Tenho%20interesse%20no%20Tênis%20Urban."
+                            target="_blank"
+                            class="product-button"
+                        >
+                            Tenho interesse
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- PRODUTOS NÃO ENCONTRADOS -->
+
+            <div
+                id="noProducts"
+                class="no-products"
+            >
+                Nenhum produto encontrado.
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- RODAPÉ -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div class="footer-logo">
+
+                <strong>
+                    Paty Calçados
+                </strong>
+
+                <p>
+                    Moda e estilo para você.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="index.html">
+                    Início
+                </a>
+
+                <a href="produtos.html">
+                    Produtos
+                </a>
+
+                <a href="index.html#sobre">
+                    Sobre
+                </a>
+
+                <a href="index.html#contato">
+                    Contato
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Paty Calçados. Todos os direitos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- WHATSAPP -->
+
+    <a
+        href="https://wa.me/5544999999999"
+        target="_blank"
+        class="whatsapp"
+        aria-label="Falar pelo WhatsApp"
+    >
+        💬
+    </a>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+```
